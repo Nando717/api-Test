@@ -42,10 +42,7 @@ public class UserService {
     }
 
 
-    @Transactional
-    public User findName (User user){
-        return userRepository.findByName();
-    }
+
 
 
 
